@@ -215,7 +215,7 @@ caliper:
         # Use the value 'tx' to perform transaction-based load balancing, meaning that the peer and orderer targets change for every submitted transaction or query.
         loadbalancing: tx
         # Indicates whether to temporarily set the GOPATH environment variable to the Caliper root directory
-        overwritegopath: true
+        overwritegopath: false
         # Determines the reported commit time of a transaction based on the given percentage of event sources
         latencythreshold: 1.0
         # Indicates whether to count queries as workload, i.e., whether the generated report should include them
